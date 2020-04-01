@@ -1,7 +1,7 @@
 $("document").ready(function() {
 
-    $("#nameNutton").on("click", function(){
-        $("#carouselCaptions").hide();
+    $("#nameButton").on("click", function(){
+        $("#carouselExampleCaptions").hide();
         $("#contactForm").hide();
         $("#aboutMeContent").hide();
         $("#homePageContent").show();
@@ -12,19 +12,19 @@ $("document").ready(function() {
         $("#homePageContent").hide();
         $("#contactForm").hide();
         $("#aboutMeContent").hide();
-        $("#carouselCaptions").show();
+        $("#carouselExampleCaptions").show();
     })
 
     $("#contactButton").on("click", function(){
         $("#homePageContent").hide();
-        $("#carouselCaptions").hide();
+        $("#carouselExampleCaptions").hide();
         $("#aboutMeContent").hide();
         $("#contactForm").show();
     })
 
     $("#aboutButton").on("click", function(){
         $("#homePageContent").hide();
-        $("#carouselCaptions").hide();
+        $("#carouselExampleCaptions").hide();
         $("#contactForm").hide();
         $("#aboutMeContent").show();
     })
